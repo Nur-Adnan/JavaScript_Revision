@@ -30,3 +30,12 @@ console.log(typeof year);
 console.log(typeof null);
 
 
+// let, const and var
+
+let age = 30;
+age = 31;
+const birthYear = 1991;
+var job = 'programmer';
+job = 'teacher'
+console.log(job);
+
