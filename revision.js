@@ -39,3 +39,7 @@ var job = 'programmer';
 job = 'teacher'
 console.log(job);
 
+// Difference between let and var in javascript
+/*
+    Variables declared by let are only available inside the block where they're defined. Variables declared by var are available throughout the function in which they're declared.
+*/
