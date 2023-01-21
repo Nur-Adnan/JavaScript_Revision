@@ -74,3 +74,14 @@ const oldAge = 5;
 const presentAge = age + 13;
 console.log(presentAge > oldAge,"He is 18+");
 
+// Operator Precedence
+
+const latestYear = 2037;
+const ageNur = now - 1991;
+const ageNeha = now - 2018;
+console.log(now - 1991 > now - 2018);
+let x1, y1;
+x1 = y1 = 25 - 10 - 5; // x = y = 10, x = 10
+console.log(x1, y1);
+const averageAge = (ageNur + ageNeha) / 2;
+console.log(ageNur, ageNeha, averageAge);
