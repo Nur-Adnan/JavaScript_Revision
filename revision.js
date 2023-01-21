@@ -142,3 +142,27 @@ if (age_Nur >= 18) {
   console.log(`Neha is too young. Wait another ${yearsLeft} years :)`);
 }
 
+// Coding Challenge #2
+
+/*
+Use the BMI example from Challenge #1, and the code you already wrote, and improve it:
+
+1. Print a nice output to the console, saying who has the higher BMI. The message can be either "Nur's BMI is higher than Neha's!" or "Neha's BMI is higher than Nur's!"
+2. Use a template literal to include the BMI values in the outputs. Example: "Nur's BMI (28.3) is higher than Neha's (23.9)!"
+HINT: Use an if/else statement 😉
+GOOD LUCK 😀
+*/
+
+const mass_nur = 95;
+const height_nur = 1.88;
+const mass_neha = 85;
+const height_neha = 1.76;
+const BMI_nur = mass_nur / height_nur ** 2;
+const BMI_neha = mass_neha / (height_neha * height_neha);
+console.log(BMI_nur, BMI_neha);
+if (BMI_nur > BMI_neha) {
+  console.log(`Nur's BMI (${BMI_nur}) is higher than Neha's (${BMI_neha})!`)
+} else {
+  console.log(`Neha's BMI (${BMI_neha}) is higher than Nur's (${BMI_nur})!`)
+}
+
