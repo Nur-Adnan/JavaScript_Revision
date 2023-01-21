@@ -66,3 +66,11 @@ x++; // x = x + 1
 x--;//x = x - 1
 x--;//x = x - 1
 console.log(x);
+
+
+// Comparison operators
+
+const oldAge = 5;
+const presentAge = age + 13;
+console.log(presentAge > oldAge,"He is 18+");
+
