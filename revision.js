@@ -85,3 +85,27 @@ x1 = y1 = 25 - 10 - 5; // x = y = 10, x = 10
 console.log(x1, y1);
 const averageAge = (ageNur + ageNeha) / 2;
 console.log(ageNur, ageNeha, averageAge);
+
+
+// Coding Challenge #1
+
+/*
+Nur and Neha are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
+
+1. Store Nur's and Neha's mass and height in variables
+2. Calculate both their BMIs using the formula (you can even implement both versions)
+3. Create a boolean variable 'NurHigherBMI' containing information about whether Nur has a higher BMI than Neha.
+TEST DATA 1: Nurs weights 78 kg and is 1.69 m tall. Neha weights 92 kg and is 1.95 m tall.
+TEST DATA 2: Nurs weights 95 kg and is 1.88 m tall. Neha weights 85 kg and is 1.76 m tall.
+GOOD LUCK 😀
+*/
+
+const massNur = 78;
+const heightNur = 1.69;
+const massNeha = 92;
+const heightNeha = 1.95;
+
+const BMINur = massNur / heightNur ** 2;
+const BMINeha = massNeha / (heightNeha * heightNeha);
+const NurHigherBMI = BMINur > BMINeha;
+console.log(BMINur, BMINeha, NurHigherBMI);
