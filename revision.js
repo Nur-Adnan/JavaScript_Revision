@@ -43,3 +43,12 @@ console.log(job);
 /*
     Variables declared by let are only available inside the block where they're defined. Variables declared by var are available throughout the function in which they're declared.
 */
+
+// Basic Operators
+// Math operators
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+console.log(ageJonas, ageSarah);
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
