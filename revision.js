@@ -109,3 +109,25 @@ const BMINur = massNur / heightNur ** 2;
 const BMINeha = massNeha / (heightNeha * heightNeha);
 const NurHigherBMI = BMINur > BMINeha;
 console.log(BMINur, BMINeha, NurHigherBMI);
+
+
+// Strings and Template Literals
+const first_name = 'Nur';
+const present_job = 'teacher';
+const birth_year = 1991;
+const present_year = 2037;
+const nur = "I'm " + first_name + ', a ' + (present_year - birth_year) + ' year old ' + present_job + '!';
+console.log(nur);
+const nurNew = `I'm ${first_name}, a ${present_year - birth_year} year old ${present_job}!`;
+console.log(nurNew);
+console.log(`Just a regular string...`);
+
+// using \n to create a new line
+console.log('String with \n\
+multiple \n\
+lines');
+
+// Using template literals to make new lines
+console.log(`String
+multiple
+lines`);
