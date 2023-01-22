@@ -330,6 +330,9 @@ console.log(`I like to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
 // When there is no variable, directly input values and calculate them then that is called statement
 // When there are many statement in a variable then it is called a expression
 
+
+
+
 // Coding Challenge #4
 
 /*
@@ -345,3 +348,7 @@ GOOD LUCK 😀
 const bill = 430;
 const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
+
+
+
+// Activating Strict Mode
